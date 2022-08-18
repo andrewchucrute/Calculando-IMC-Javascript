@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="alerterror">
+    Digite somente números
+</div>
+      <h1>   </h1>
+
+    <div class="container">
+        <main>
+            
+            <form action="formulario">
+                <h1>Cálculo de IMC</h1>
+
+                <div class="peso">
+                <label for="Peso">Peso (kg)</label>
+                <input type="text"
+                 name="Peso" 
+                 id="Peso" 
+                 placeholder="70">
+            </div>
+                
+                <div class="height">
+                <label for="Altura">Altura (cm)</label>
+                <input type="text" 
+                name="heightinput"
+                 id="Altura" 
+                 placeholder="165">
+            </div>
+
+            <button type="submit">Calcular IMC</button>
+
+            </form>
+
+        </main>
+
+    </div>
+
+<div class="modal">
+    <div class="card">
+
+        
+        <h2 class="title">
+           Seu IMC é de 24
+        </h2>
+
+
+
+        <button class="close"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="#0C3440" fill-opacity="0.6"/>
+            </svg>
+            </button>
+    </div>
+</div>
+
+
+<script src="./js/script.js" type="module"></script>
+</body>
+</html>
